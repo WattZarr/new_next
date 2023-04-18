@@ -8,7 +8,7 @@ const Course = () => {
   const [loading,setLoading] = useState(true)
   
   const getAllCourses = async() => {
-    await axios.get('http://localhost:4000/api/').then((response) => {
+    await axios.get(`${process.env.base_url}`).then((response) => {
       setCourses(response.data);
       setLoading(false)
     });
