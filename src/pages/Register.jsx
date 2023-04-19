@@ -20,7 +20,7 @@ const Register = () => {
   const [transaction,setTransaction] = useState("");
 
   const getCourse = () => {
-    axios.get(`https://new-next-server.onrender.com/api/${id}`).then((response) => 
+    axios.get(`${import.meta.env.VITE_API_KEY}api/${id}`).then((response) => 
     {
       setCourse(response.data)
       setCourseName(course.title)
@@ -39,7 +39,7 @@ const Register = () => {
     fData.append("education",education)
     fData.append("course",courseName)
 
-    axios.post('https://new-next-server.onrender.com/api/register',fData).then((response) => {
+    axios.post(`${import.meta.env.VITE_API_KEY}api/register`,fData).then((response) => {
       console.log(response.status);
     }).catch((error) => console.log(error))
 

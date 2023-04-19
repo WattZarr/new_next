@@ -5,10 +5,12 @@ import CourseCard from '../Components/CourseCard'
 const Course = () => {
 
   const [courses,setCourses] = useState([]);
-  const [loading,setLoading] = useState(true)
+  const [loading,setLoading] = useState(true);
+
+  console.log(import.meta.env.VITE_API_KEY);
   
   const getAllCourses = async() => {
-    await axios.get('https://new-next-server.onrender.com/api/').then((response) => {
+    await axios.get(`${import.meta.env.VITE_API_KEY}api/`).then((response) => {
       setCourses(response.data);
       setLoading(false)
     });
