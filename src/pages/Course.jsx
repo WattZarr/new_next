@@ -8,7 +8,7 @@ const Course = () => {
   const [loading,setLoading] = useState(true)
   
   const getAllCourses = async() => {
-    await axios.get('https://new-next-server.onrender.com/api').then((response) => {
+    await axios.get('https://new-next-server.onrender.com/api/').then((response) => {
       setCourses(response.data);
       setLoading(false)
     });
