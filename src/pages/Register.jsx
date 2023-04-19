@@ -20,7 +20,7 @@ const Register = () => {
   const [transaction,setTransaction] = useState("");
 
   const getCourse = () => {
-    axios.get(`http://localhost:4000/api/${id}`).then((response) => 
+    axios.get(`https://new-next-server.onrender.com/api/${id}`).then((response) => 
     {
       setCourse(response.data)
       setCourseName(course.title)
