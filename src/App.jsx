@@ -8,6 +8,7 @@ import Contact from './pages/Contact';
 import Register from './pages/Register';
 
 const App = () => {
+
   return (
     <div className='font-asap-normal'>
       <Nav></Nav>

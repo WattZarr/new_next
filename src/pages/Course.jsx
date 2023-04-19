@@ -8,7 +8,7 @@ const Course = () => {
   const [loading,setLoading] = useState(true)
   
   const getAllCourses = async() => {
-    await axios.get(`${process.env.base_url}`).then((response) => {
+    await axios.get('https://new-next-server.onrender.com/api').then((response) => {
       setCourses(response.data);
       setLoading(false)
     });
@@ -17,7 +17,7 @@ const Course = () => {
 
   useEffect(() => {
     getAllCourses();
-  })
+  },[])
 
   return (
     <div className='bg-white pt-32 pb-4'> 

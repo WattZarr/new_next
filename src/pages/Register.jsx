@@ -39,7 +39,7 @@ const Register = () => {
     fData.append("education",education)
     fData.append("course",courseName)
 
-    axios.post('http://localhost:4000/api/register',fData).then((response) => {
+    axios.post('https://new-next-server.onrender.com/api/register',fData).then((response) => {
       console.log(response.status);
     }).catch((error) => console.log(error))
 
