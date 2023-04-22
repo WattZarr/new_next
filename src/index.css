@@ -5,6 +5,11 @@
 @tailwind components;
 @tailwind utilities;
 
+body{
+    position: relative;
+    overflow-x: hidden;
+}
+
 .middle{
     left: 50%;
     transform: translate(-50%);
@@ -13,4 +18,8 @@
 
 .active-link{
     @apply bg-light-green rounded text-white;
+}
+
+.active-li{
+    @apply font-extrabold;
 }

@@ -50,20 +50,20 @@ const About = () => {
 
                 <div>
                     <h1 className='font-bold text-center text-3xl my-4'>Why NEW NEXT?</h1>
-                    <div className='flex flex-wrap justify-between w-full mt-4'>
-                        <div className='w-[47%] mb-8'>
+                    <div className='flex flex-col md:flex-wrap md:flex-row justify-center md:justify-between w-full mt-4'>
+                        <div className='w-full md:w-[47%] mb-8'>
                             <h2 className='text-dark-green font-semibold text-xl mb-2 flex items-center gap-4'><FaLayerGroup/> Starting with Passion and Purpose</h2>
                             <p>လူငယ်တွေကို ကိုယ်ဝါသနာနဲ့ ပါရမီတွေကို သိရှိခြင်းက မိမိရဲ့ အသက်မွေး ဝမ်းကြောင်းကိုမှန်ကန်စွာရွေးချယ်နိုင်ရန်အတွက်ပထမဆုံးခြေလှမ်းဖြစ်တာ ကြောင့် NNU Faculty အဖွဲ့ဝင်များက အထက်ပါအကြောင်းအ‌ရာများကို ဦး ဆောင်လမ်းညွှန်ပေးသွားမှာဖြစ်ပါတယ်။လူငယ်တွေရဲ့ ပညာရေးကိုအ ကောင်းဆုံးလက်လှမ်းမှီအောင်ကြိုးပမ်းတဲ့နေရာမှာ စိတ်အားထက်သန်တဲ့ Leader တွေရဲ့ဦးဆောင်မှုအောက်က New Next ကအမြဲတမ်းပိုကောင်းတဲ့ လမ်းကြောင်းကို ဦးတည်နေမှာသေချာပါတယ်။</p>
                         </div>
-                        <div className='w-[47%] mb-8'>
+                        <div className='w-full md:w-[47%] mb-8'>
                             <h2 className='text-dark-green font-semibold text-xl mb-2 flex items-center gap-4'><FaLayerGroup/> New Next Community</h2>
                             <p>New Next ဟာ စွန့်ဦးတီထွင်တဲ့ အမြင်ရှိတဲ့ ‌ခေါင်းဆောင်အတွက်ရည်ရွယ် ပါတယ်။ တီထွင်ဆန်းသစ်မှုနဲ့ စွန့်ဦးတီထွင်လိုစိတ်ဟာ New Next ရဲ့ Community ဟာဆိုရင်လူ့အဖွဲ့အစည်းတစ်ရပ်လုံး တိုးတက်လာဖို့အတွက် လက်တွေ့ဆန်တဲ့ တီထွင်ဆန်းသစ်မှုတွေကို ဖန်တီးရာနေရာတစ်ခုဖြစ်လာ မှာပါ။ အဆင့်အတန်းမြင့်မားတဲ့ အလေ့အကျင့်တွေနဲ့အတူ ကျွန်တော်တို့ရဲ့ အများနဲ့မတူညီတဲ့တွေး ခေါ်ပုံ၊ ကိုင်တွယ်ဆောင်ရွက်ပုံတွေစာ သက်ရောက် မှုကြီးမားတဲ့ တိုးတက်ပြောင်းလဲမှုတစ်ခုကိုဖော်ဆောင်ပေးမှာ ဖြစ်ပါတယ်။</p>    
                         </div>
-                        <div className='w-[47%] mb-8'>
+                        <div className='w-full md:w-[47%] mb-8'>
                             <h2 className='text-dark-green font-semibold text-xl mb-2 flex items-center gap-4'><FaLayerGroup/> Exceptional Teaching Methdology</h2>
                             <p>သင်ယူမှုမှာ ကျောင်းသားကျောင်းသူတွေကို တက်ကြွစွာ ပူးပေါင်းပါဝင်စေမှု ဟာ NNU ရဲ့တမူထူးခြားတဲ့ သင်ကြားမှု နည်းစနစ်တစ်ခုဖြစ်ပါတယ်။ လုပ် ငန်းခွင်ကျွမ်းကျင်တဲ့ Lecturers တွေကနေ နိုင်ငံတကာအဆင့်မီ သင်ရိုး ညွှန်းတမ်းတွေနဲ့အတူ UK နိုင်ငံအသိအမှတ်ပြု Programs တွေကို Theory + Practical ပုံစံနဲ့အတူ စနစ်တကျသင်ကြားပေးမှာဖြစ်လို့လက်တွေ့လုပ် ငန်းခွင်အတွင်း အထိရောက်ဆုံး အသုံးချနိုင်မယ့် ပညာရပ်တွေကို ပိုင်ဆိုင်‌ စေမှာဖြစ်ပါတယ်။ ဘွဲ့ရဖို့ အရေးကြီးသလို အရည်အချင်း စွမ်းရည်များ ရရှိ အောင် ပိုမိုလိုအပ်နေတဲ့ မြန်မာနိုင်ငံရဲ့ လူ့စွမ်းအားအရင်းအမြစ်ကို မြှင့်တင် ဖို့ NNU က အပြောင်းအလဲလူပ်ပြီး Industry Experts and Lecturers များ မှသင်ကြားပေးသွားမှာပါ။</p>    
                         </div>
-                        <div className='w-[47%] mb-8'>
+                        <div className='w-full md:w-[47%] mb-8'>
                             <h2 className='text-dark-green font-semibold text-xl mb-2 flex items-center gap-4'><FaLayerGroup/> Co-creation of projects with Corporations</h2>
                             <p>NNU ကနေ ကျောင်းသားလူငယ်တွေ ‌ကောင်းမွန်စစ်မှန်တဲ့ ပညာရေးလမ်း ခရီးကိုလျှောက်လှမ်းနိုင်ဖို့အတွက် လှပ်ငန်းရှင်များနဲ့ပူး‌ပေါင်းပြီး Real-world မှာကြုံတွေ့ရမယ့် စိန်ခေါ်မှုတွေကို ‌လေ့လာရင်း အလုပ်အကိုင်အခွင့်အလမ်း တွေ ရရှိစေမှာဖြစ်တဲ့ အပြင်ကျောင်းသားလူငယ်တွေအနေနဲ့ လက်ရှိ Company တွေ‌မှာကြုံတွေ့နေရတဲ့ ပြဿနာများစွာကို ‌ဖြေရှင်းဖို့ နည်းလမ်း တွေ အဖြေရှာရင်း စီးပွားရေးနယ်ပယ်ကို စောစီးစွာထိတွေ့မှုရရှိစေခြင်းနဲ့ မိမိသင်ယူထားတဲ့ အသိပညာ အတတ်ပညာ‌တွေကို လက်တွေ့အသုံးချနိုင်ဖို့ ရည်ရွယ်ပါတယ်။</p>    
                         </div>
