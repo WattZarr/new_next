@@ -61,7 +61,7 @@ const Home = () => {
             </div>
         </div>
         <div className='mt-8 bg-dark-green xl:h-[25vh] lg:mt-24 xl:mt-4'>
-            <div className='w-[80%] mx-auto flex flex-col md:flex-row gap-5 transform -translate-y-[50%] sec'>
+            <div className='w-[80%] mx-auto flex flex-col md:flex-row gap-5 transform -translate-y-[10%] md:-translate-y-[50%] sec'>
                 <div className='bg-dark-blue px-4 py-6 rounded shadow-lg transform ease-in hover:scale-105 transition duration-200 lg:h-[38vh] md:py-2 sm:py-2'>
                     <FaUniversity className='text-white text-2xl mb-2' />
                     <h1 className='font-bold text-white mb-4'>Why Study at New Next?</h1>
